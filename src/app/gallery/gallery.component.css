@@ -1,0 +1,25 @@
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter label {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: white;
+}
+
+.filter select {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
